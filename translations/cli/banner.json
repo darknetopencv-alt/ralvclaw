@@ -1,0 +1,7 @@
+{
+  "file": "src/cli/banner.ts",
+  "description": "CLI 启动横幅",
+  "replacements": {
+    "const title = \"🦞 OpenClaw\"": "const title = \"🦞 RalvClaw 中文版\""
+  }
+}

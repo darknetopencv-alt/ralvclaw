@@ -1,0 +1,7 @@
+{
+  "file": "src/wizard/setup.ts",
+  "description": "初始化引导向导",
+  "replacements": {
+    "await prompter.intro(\"OpenClaw setup\")": "await prompter.intro(\"RalvClaw 初始化向导\")"
+  }
+}

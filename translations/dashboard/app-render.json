@@ -1,0 +1,8 @@
+{
+  "file": "ui/src/ui/app-render.ts",
+  "description": "Dashboard 主布局和侧边栏",
+  "replacements": {
+    "alt=\"OpenClaw\"": "alt=\"RalvClaw\"",
+    "<span class=\"sidebar-brand__title\">OpenClaw</span>": "<span class=\"sidebar-brand__title\">RalvClaw</span>"
+  }
+}

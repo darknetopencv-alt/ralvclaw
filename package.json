@@ -1,0 +1,16 @@
+{
+  "name": "ralvclaw",
+  "version": "1.0.0",
+  "description": "RalvClaw - 基于 OpenClaw 的中文版个人 AI 助手",
+  "type": "module",
+  "scripts": {
+    "apply": "node cli/apply.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "libsodium-wrappers": "^0.8.2"
+  }
+}
