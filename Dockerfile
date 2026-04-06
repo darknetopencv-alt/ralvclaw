@@ -55,7 +55,7 @@ RUN pnpm build:docker || (node scripts/tsdown-build.mjs && node scripts/runtime-
 RUN pnpm ui:build
 
 # 剪枝开发依赖
-RUN pnpm prune --prod && \
+RUN CI=true pnpm prune --prod && \
     find dist -type f \( -name '*.d.ts' -o -name '*.d.mts' -o -name '*.d.cts' -o -name '*.map' \) -delete
 
 # 更新包信息
